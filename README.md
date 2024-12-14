@@ -1,27 +1,17 @@
-![You Suck at Programming Banner](https://files.daveeddy.com/ysap/github-banner.png)
+![Bjorna-3.net Banner](https://BANNER-URL)
 
-`ysap` - You Suck at Programming
+`bjorna-3.net`
 ================================
 
-A series on programming (actually just bash scripting) on youtube, tiktok and
-instagram.
+Showcasing projects by Kurt Anderson.
 
-https://ysap.sh
+https://bjorna-3.net
+
 
 Repository
 ----------
 
-- [episodes/](episodes/) - scripts and notes used during videos
-- [website/](website/) - scripts used for creating the [ysap.sh](https://ysap.sh) site
-
-Episodes
---------
-
-Updated list of episodes can be seen here:
-
-https://ysap.sh
-
-You can also access it on your terminal with:
+- [website/](website/) - scripts used for creating the [bjorna-3.net](https://bjorna-3.net) site
 
 ```
 $ curl ysap.sh
@@ -44,17 +34,12 @@ $ curl ysap.sh
 last updated: Sat Jul 13 17:45:58 UTC 2024
 ```
 
-Notes For Dave
---------------
-
-```
-Terminal size: 78x24
-Zoom command+ 3x
-
-PS1='\[\e[1;32m\]\$ \[\e[0;0m\]'
-```
 
 License
 -------
 
 All code licensed under the MIT License
+
+
+Thanks to [Dave Eddy](https://github.com/bahamas10)
+[ysap.net](https://ysap.sh)
