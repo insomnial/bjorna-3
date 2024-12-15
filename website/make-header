@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Print the colorized YSAP logo and metadata
+# Print a colorized logo and metadata
 #
 # Author: Dave Eddy <dave@daveeddy.com>
 # Date: March 17, 2024
@@ -13,11 +13,15 @@ mapfile -t logo < logo.txt
 
 description=(
 	""
-	"${RST_COLOR}You Suck at Programming"
-	"${RST_COLOR}Episodes and guide by dave eddy"
-	"${BLUE_COLOR}https://$SITE${RST_COLOR} | ${BLUE_COLOR}https://daveeddy.com${RST_COLOR}"
 	''
-	"${RST_COLOR}Source: ${BLUE_COLOR}https://github.com/bahamas10/ysap${RST_COLOR}"
+	''
+	''
+	''
+	''
+	''
+	'' # "${GRAY_COLOR}Source: ${BLUE_COLOR}https://github.com/insomnial/bjorna-3${RST_COLOR}"
+	''
+	''
 )
 
 len=${#logo[@]}

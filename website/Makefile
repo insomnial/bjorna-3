@@ -18,7 +18,7 @@ build: favicon.ico
 	cat style.css > _site/style.css
 	cat robots.txt > _site/robots.txt
 	# create json
-	./make-json episodes > _site/json
+	# ./make-json episodes > _site/json
 	# create help page
 	cat <(./make-header) <(echo) <(./make-help) > _site/help
 	# create index ascii page for curl users
@@ -29,13 +29,12 @@ build: favicon.ico
 	# create nocolor version of that page
 	npx strip-ansi-cli < _site/index.txt > _site/nocolor
 	# create all pages for each video
-	./make-video-pages episodes _site/v
+	# ./make-video-pages episodes _site/v
 	# create the main HTML page
 	cat <(./make-header) <(echo) \
 	    <(./make-socials) <(echo) \
-	    <(./make-ascii-table episodes) \
+	    <(./make-directory) <(echo) \
 	    <(./make-footer) <(echo) \
-	    <(./make-help) \
 	    <(./make-donate) \
 		| sed -e 's/ /\&nbsp;/g' \
 		| npx ansi-to-html \
@@ -44,7 +43,7 @@ build: favicon.ico
 		| sed -e '/CONTENT/{r /dev/stdin' -e 'd;}' index.html.template > _site/index.html
 
 favicon.ico:
-	curl -o $@ https://secure.gravatar.com/avatar/d6e53a055695ad6488b32a6ac4f6ee5d?s=32
+	curl -o $@ https://secure.gravatar.com/avatar/585ded4a6542329eb535ee16b61274d22a6cf95fb88faf70f49a8dc839797d54?size=32
 
 .PHONY: all
 all: build deploy
@@ -68,4 +67,4 @@ clean:
 
 .PHONY: deploy
 deploy:
-	rsync -avh --delete ./_site/ web:/var/www/ysap.sh/
+	rsync -rltgoDv _site/ /var/www/bjorna-3.net/html/

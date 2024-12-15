@@ -9,11 +9,12 @@
 . ./colors || exit 1
 . ./util || exit 1
 
-echo -e "${GRAY_COLOR}# join the community${RST_COLOR}
-${GRAY_COLOR}+ --------- + ------------------------- +${RST_COLOR}
-${GRAY_COLOR}| ${GREEN_COLOR}YouTube  ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/youtube   ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}| ${GREEN_COLOR}Instagram${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/instagram ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}| ${GREEN_COLOR}TikTok   ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/tiktok    ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}| ${GREEN_COLOR}Merch    ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/merch     ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}| ${GREEN_COLOR}Discord  ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/discord   ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}+ --------- + ------------------------- +${RST_COLOR}"
+echo -e "${GRAY_COLOR}# links${RST_COLOR}
+${GRAY_COLOR}+ --------------------- + --------------------------------------------- +${RST_COLOR}
+${GRAY_COLOR}| ${GREEN_COLOR}LinkedIn             ${GRAY_COLOR} | ${BLUE_COLOR}https://www.linkedin.com/in/kurt-anderson-/   ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${GREEN_COLOR}GitHub               ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial                  ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${GREEN_COLOR}Projects             ${GRAY_COLOR} | ${BLUE_COLOR}                                              ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${DESC_COLOR}  Game Day           ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial/game-day         ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${DESC_COLOR}  bjorna-3.net       ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial/bjorna-3         ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${DESC_COLOR}  D2 Stat Generator  ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial/D2StatGenerator  ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}+ --------------------- + --------------------------------------------- +${RST_COLOR}"

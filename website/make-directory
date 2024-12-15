@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#
+# Generate a page with my socials
+#
+# Author: Dave Eddy <dave@daveeddy.com>
+# Date: March 17, 2024
+# License: MIT
+
+. ./colors || exit 1
+. ./util || exit 1
+
+echo -e "${GRAY_COLOR}# directory${RST_COLOR}
+${GRAY_COLOR}+ --------------------- + --------------------------------------------- +${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Ecthar map     ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/gotd/gotd-map.html   ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}+ --------------------- + --------------------------------------------- +${RST_COLOR}"

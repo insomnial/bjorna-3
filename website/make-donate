@@ -9,5 +9,5 @@
 . ./colors || exit 1
 . ./util || exit 1
 
-echo -e "${GRAY_COLOR}# buy me a coffee${RST_COLOR}"
-echo -e "> ${BLUE_COLOR}https://$SITE/ko-fi${RST_COLOR}"
+echo -e "${GRAY_COLOR}# buy ysap a coffee${RST_COLOR}"
+echo -e "> ${BLUE_COLOR}https://ysap.sh/ko-fi${RST_COLOR}"

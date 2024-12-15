@@ -6,7 +6,7 @@
 # Date: July 11, 2024
 # License: MIT
 
-SITE='ysap.sh'
+SITE='bjorna-3.net'
 
 fatal() {
 	echo '[FATAL]' "$@" >&2

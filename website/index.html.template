@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>You Suck at Programming</title>
+		<title>Welcome to bjorna-3.net</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<div id="container">
-			<!--<img src="https://secure.gravatar.com/avatar/d6e53a055695ad6488b32a6ac4f6ee5d?s=256" id="self-portrait" alt="ysap" />-->
+			<!--<img src="https://secure.gravatar.com/avatar/585ded4a6542329eb535ee16b61274d22a6cf95fb88faf70f49a8dc839797d54?size=256" id="self-portrait" alt="Kurt Anderson" />-->
 			<pre><code>
 			CONTENT
 			</code></pre>
