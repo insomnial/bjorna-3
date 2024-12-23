@@ -10,6 +10,7 @@
 . ./util || exit 1
 
 echo -e "${GRAY_COLOR}# directory${RST_COLOR}
-${GRAY_COLOR}+ --------------------- + --------------------------------------------- +${RST_COLOR}
-${GRAY_COLOR}| ${MAGENTA_COLOR}Ecthar map     ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/gotd/gotd-map.html   ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}+ --------------------- + --------------------------------------------- +${RST_COLOR}"
+${GRAY_COLOR}+ ------------------- + ----------------------------------------- +${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Ecthar map         ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/gotd/gotd-map.html   ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}D2 Stat Generator  ${GRAY_COLOR} | ${BLUE_COLOR}https://d2stats.bjorna-3.net              ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}+ ------------------- + ----------------------------------------- +${RST_COLOR}"
