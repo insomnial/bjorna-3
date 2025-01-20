@@ -1,4 +1,4 @@
-YSAP Website
+Website
 ============
 
 ```
