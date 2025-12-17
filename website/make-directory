@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Generate a page with my socials
+# Generate a page with my sub-domains
 #
 # Author: Dave Eddy <dave@daveeddy.com>
 # Date: March 17, 2024
@@ -10,7 +10,15 @@
 . ./util || exit 1
 
 echo -e "${GRAY_COLOR}# directory${RST_COLOR}
-${GRAY_COLOR}+ ------------------- + ----------------------------------------- +${RST_COLOR}
-${GRAY_COLOR}| ${MAGENTA_COLOR}Ecthar map         ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/gotd/gotd-map.html   ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}| ${MAGENTA_COLOR}D2 Stat Generator  ${GRAY_COLOR} | ${BLUE_COLOR}https://d2stats.bjorna-3.net              ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}+ ------------------- + ----------------------------------------- +${RST_COLOR}"
+${GRAY_COLOR}+ ---------------------------- + --------------------------------------------- +${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Ecthar map                  ${GRAY_COLOR} | ${BLUE_COLOR}https://$SITE/gotd/gotd-map.html       ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}BitWarden                   ${GRAY_COLOR} | ${BLUE_COLOR}https://besna.$SITE                    ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Rocket.Chat                 ${GRAY_COLOR} | ${BLUE_COLOR}https://chat.$SITE                     ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Mealie                      ${GRAY_COLOR} | ${BLUE_COLOR}https://cook.$SITE                     ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Destiny 2 Stats             ${GRAY_COLOR} | ${BLUE_COLOR}https://d2stats.$SITE                  ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Jitsi                       ${GRAY_COLOR} | ${BLUE_COLOR}https://jitsi.$SITE                    ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Overseerr                   ${GRAY_COLOR} | ${BLUE_COLOR}https://krs1.$SITE                     ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Pixelfed                    ${GRAY_COLOR} | ${BLUE_COLOR}https://pixelfed.$SITE                 ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Zabbix                      ${GRAY_COLOR} | ${BLUE_COLOR}https://tangaroa.$SITE                 ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${MAGENTA_COLOR}Owntracks                   ${GRAY_COLOR} | ${BLUE_COLOR}https://whereareyou.$SITE              ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}+ ---------------------------- + --------------------------------------------- +${RST_COLOR}"
