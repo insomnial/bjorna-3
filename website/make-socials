@@ -14,8 +14,10 @@ ${GRAY_COLOR}+ ---------------------------- + ----------------------------------
 ${GRAY_COLOR}| ${GREEN_COLOR}LinkedIn                    ${GRAY_COLOR} | ${BLUE_COLOR}https://www.linkedin.com/in/kurt-anderson-/   ${GRAY_COLOR}|${RST_COLOR}
 ${GRAY_COLOR}| ${GREEN_COLOR}GitHub                      ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial                  ${GRAY_COLOR}|${RST_COLOR}
 ${GRAY_COLOR}| ${GREEN_COLOR}Projects                    ${GRAY_COLOR} | ${BLUE_COLOR}                                              ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${DESC_COLOR}  Jira Reporting            ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial/Jira-Reporting   ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${DESC_COLOR}  atlassian-api-py          ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial/atlassian-api-py ${GRAY_COLOR}|${RST_COLOR}
 ${GRAY_COLOR}| ${DESC_COLOR}  Game Day                  ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial/game-day         ${GRAY_COLOR}|${RST_COLOR}
 ${GRAY_COLOR}| ${DESC_COLOR}  bjorna-3.net              ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial/bjorna-3         ${GRAY_COLOR}|${RST_COLOR}
 ${GRAY_COLOR}| ${DESC_COLOR}  D2 Stat Generator         ${GRAY_COLOR} | ${BLUE_COLOR}https://github.com/insomnial/D2StatGenerator  ${GRAY_COLOR}|${RST_COLOR}
-${GRAY_COLOR}| ${DESC_COLOR}  D2 Stat Generator (site)  ${GRAY_COLOR} | ${BLUE_COLOR}                                              ${GRAY_COLOR}|${RST_COLOR}
+${GRAY_COLOR}| ${DESC_COLOR}  Pixelfed                  ${GRAY_COLOR} | ${BLUE_COLOR}https://pixelfed.bjorna-3.net                 ${GRAY_COLOR}|${RST_COLOR}
 ${GRAY_COLOR}+ ---------------------------- + --------------------------------------------- +${RST_COLOR}"
